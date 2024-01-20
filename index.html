@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Garvita Dalmia - Portfolio</title>
+    <style>
+        nav.navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
 
+        nav.navbar li {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="hero" class="centered-section active">
+        <div class="container">
+            <div class="hero-content">
+                <img src="./garvita.jpg" alt="Your Profile Picture" class="profile-picture">
+                <div class="hero-text">
+                    <h1>Garvita Dalmia</h1><br>
+                    <nav class="navbar">
+                        <ul>
+                            <!-- <li><a href="#hero">Home</a></li> -->
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="centered-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am Garvita,I am dedicated and hardworking, passionate about learning new skills. Concurrently, I am honing my skills in Full Stack Development.Excited about the intersection of technology and creativity, I am eager to contribute and grow in the field, with contributions to various projects, I emphasize clean and efficient code for user-centric experiences. Open to professional connections and opportunities for collaboration.</p>
+        </div>
+    </section>
+
+    <section id="education" class="centered-section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <p>• Bachelor of Technology in Computer Science Engineering | Mahindra University |  Hyderabad, Telangana	| CGPA:  7.8| 2026(Expected)<br>                              		         
+                    • XII (SSC) | FIITJEE Junior College | Hyderabad, Telangana | 95.1% | 2022  <br>
+                    • X (ICSE) | Nasr Girls School | Hyderabad, Telangana | 92% | 2020
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="centered-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>DSA</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>Content writing</li>
+                <li>Video editing</li>
+                <li>Designing</li>
+                <li>Drawing,Painting</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience" class="centered-section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <p>Media and Publicity Coordinator,Mahindra Alumni Relations Centre, Mahindra University | Hyderabad, Telangana | December 2023 - present<br>       
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="centered-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <button id="toggleProjectsBtn" onclick="toggleProjects()">View Projects</button>
+            <div class="project-grid" id="projectGrid">
+                <div class="project-item">
+                    <div class="project-content">
+                        <h3>Responsive Landing Page</h3>
+                        <p>Description: The project involved creating a responsive landing page with dynamic color/style changes upon scrolling or hovering.</p>
+                        <a href="https://github.com/garvita-d/PRODIGY_WD_01" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-content">
+                        <h3>Stopwatch Web Application</h3>
+                        <p>Description: Involved building a stopwatch web application with start, pause, and reset features.</p>
+                        <a href="https://github.com/garvita-d/PRODIGY_WD_02" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-content">
+                        <h3>Tic-Tac-Toe Web Application</h3>
+                        <p>Description: Involved functions to handle user clicks, track game state, and check for winning conditions.</p>
+                        <a href="https://github.com/garvita-d/PRODIGY_WD_03" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Description: Showcases my skills, projects, and accomplishments as a web developer. It has an attractive and visually appealing layout that captures viewers' attention.</p>
+                        <a href="https://github.com/garvita-d/PRODIGY_WD_04" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-content">
+                        <h3>Weather App</h3>
+                        <p>Description: A webpage that fetches weather data from a weather API based on the user's location or user-inputted location. It displays the current weather conditions and the temperature.</p>
+                        <a href="https://github.com/garvita-d/PRODIGY_WD_05" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="centered-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Connect with me on:</p>
+            <ul>
+                <li><a href="https://github.com/garvita-d" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/garvita-dalmia-928b62214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+                <li>Email: <a href="mail to:garvitadalmia18@gmail.com">garvitadalmia18@gmail.com</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="centered-section">
+        <div class="container">
+            <p>&copy; 2024 Garvita Dalmia. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
